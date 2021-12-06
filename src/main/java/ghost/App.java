@@ -1,8 +1,6 @@
 package ghost;
 
 import processing.core.PApplet;
-import processing.core.PImage;
-import processing.core.PFont;
 
 public class App extends PApplet {
     

@@ -1,10 +1,9 @@
 package ghost;
 
 import processing.core.PApplet;
+import processing.core.PConstants;
 import processing.core.PImage;
 import processing.core.PFont;
-
-import java.lang.Math; 
 
 import java.util.*;
 
@@ -323,7 +322,7 @@ public class GameManager{
         //restart
         if (gameOver){
             app.textFont(myfont);
-            app.textAlign(app.CENTER, app.CENTER);
+            app.textAlign(PConstants.CENTER, PConstants.CENTER);
             if (win){
                 app.text("YOU WIN", app.width/2, app.height/2-100);
             } else{

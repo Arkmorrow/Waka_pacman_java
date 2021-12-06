@@ -2,7 +2,6 @@ package ghost;
 
 
 import processing.core.PImage;
-import java.util.*;
 
 public class Fruit extends GameElements{
 
